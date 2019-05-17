@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
+const monggose = require('mongoose')
 
-//Client Model - Help make queries
+// Address model - Help make queries
 const address = require('../../models/address')
 
 router.get('/', async (req, res) => { //represents api/items (because we're already in that file)

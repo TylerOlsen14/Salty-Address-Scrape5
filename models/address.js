@@ -12,7 +12,9 @@ const AddressSchema = new Schema({
   address: {
     type: String
   }
-})
+},
+{collection: 'address'}
+)
 
 const address = mongoose.model('address', AddressSchema);
 
