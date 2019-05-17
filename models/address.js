@@ -9,9 +9,11 @@ const AddressSchema = new Schema({
   url: {
     type: String
   },
-  ClientNotes: {
+  address: {
     type: String
   }
 })
 
-module.exports = address = mongoose.model('ReactApp', AddressSchema);
+const address = mongoose.model('address', AddressSchema);
+
+module.exports = address
