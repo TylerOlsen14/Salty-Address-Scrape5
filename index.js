@@ -26,4 +26,4 @@ mongoose
 app.use('/', address)
 
 // app.listen(3001, () => console.log("It's clobberin' time!"))
-app.listen(5000, () => console.log("It's clobberin' time!"))
+app.listen(process.env.PORT |5000, () => console.log("It's clobberin' time!"))
