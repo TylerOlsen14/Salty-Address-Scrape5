@@ -1,0 +1,30 @@
+{
+  "name": "salty-address-scrape5-kitchen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerOlsen14/Salty-Address-Scrape5-kitchen.git"
+  },
+  "keywords": [],
+  "author": "Tyler Olsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerOlsen14/Salty-Address-Scrape5-kitchen/issues"
+  },
+  "homepage": "https://github.com/TylerOlsen14/Salty-Address-Scrape5-kitchen#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "mongoose": "^5.5.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
