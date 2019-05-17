@@ -1,0 +1,19 @@
+{
+  "name": "salty-address-scrape5-kitchen",
+  "version": "1.0.0",
+  "description": "Server for address scrape",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerOlsen14/Salty-Address-Scrape5.git"
+  },
+  "author": "Tyler Olsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerOlsen14/Salty-Address-Scrape5/issues"
+  },
+  "homepage": "https://github.com/TylerOlsen14/Salty-Address-Scrape5#readme"
+}
