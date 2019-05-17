@@ -24,6 +24,4 @@ mongoose
   .catch(err => console.log(err));
 
 app.use('/', address)
-
-// app.listen(3001, () => console.log("It's clobberin' time!"))
-app.listen(process.env.PORT |5000, () => console.log("It's clobberin' time!"))
+  .listen(process.env.PORT || 5000, () => console.log("It's clobberin' time!"))
