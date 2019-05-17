@@ -4,16 +4,20 @@
   "description": "Server for address scrape",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TylerOlsen14/Salty-Address-Scrape5.git"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Tyler Olsen",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TylerOlsen14/Salty-Address-Scrape5/issues"
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "mongoclient": "^1.0.3",
+    "mongodb": "^3.2.4",
+    "mongoose": "^5.5.9"
   },
-  "homepage": "https://github.com/TylerOlsen14/Salty-Address-Scrape5#readme"
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
 }
