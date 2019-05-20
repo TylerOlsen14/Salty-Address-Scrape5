@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const monggose = require('mongoose')
+const mongoose = require('mongoose')
 
 // Address model - Help make queries
 const address = require('../../models/address')
@@ -29,6 +29,7 @@ router.put('/:id', (req, res) => {
   address.findByIdAndUpdate(
     req.params.id,
     req.body,
+    console.log(req.body),
     {new: true},
     (err, address) => {
       // Handle any possible database errors
