@@ -26,10 +26,10 @@ router.post('/', (req, res) => {
 })
 
 router.put('/:id', (req, res) => {
+  console.log(req.body)
   address.findByIdAndUpdate(
     req.params.id,
     req.body,
-    console.log(req.body),
     {new: true},
     (err, address) => {
       // Handle any possible database errors
