@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
+const BodyParser = require('body-parser')
 
 // Address model - Help make queries
 const address = require('../../models/address')

@@ -9,9 +9,7 @@ const address = require('./routes/api/address')
 
 app.use(cors())
 //Bodyparser middleware
-app.use(bodyParser.urlencoded({
-  extended: true
-}));
+app.use(bodyParser.json());
 
 // DB config
 const db = require('./config/keys').mongoURI;
