@@ -11,6 +11,9 @@ const AddressSchema = new Schema({
   },
   address: {
     type: String
+  }, 
+  notes: {
+    type: String
   }
 },
 {collection: 'address'}

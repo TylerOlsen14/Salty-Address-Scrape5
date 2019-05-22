@@ -21,7 +21,8 @@ router.post('/', (req, res) => {
   const newAddress = new address({
     name: req.body.name, // comes from a request
     url: req.body.url, 
-    address: req.body.address
+    address: req.body.address,
+    notes: req.body.notes,
   });
   newAddress.save().then(address => res.json(address)); //save to the database, spit out JSON
 })
@@ -33,7 +34,6 @@ router.put('/:id', (req, res) => {
     req.body,
     {new: true},
     (err, address) => {
-      // Handle any possible database errors
       if (err) return res.status(500).send(err);
       return res.send(address);
     }
